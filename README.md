@@ -11,10 +11,12 @@ With Pose estimation, smart assistance has been built to guide and instruct the 
 Use the [link]
 
 ## Methodology
+
 ### Dataset
 
 
 ### Data and Feature Engineering
+
 #### Handling Class Imbalance
 
 
@@ -31,6 +33,7 @@ Use the [link]
 
 Flowchart of application process :-
 
+![image](https://user-images.githubusercontent.com/69417609/134057245-395ce94c-86cd-4569-82fa-17988969f00e.png)
 
 
 ### Screenshots
