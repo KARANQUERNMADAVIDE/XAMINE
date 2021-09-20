@@ -15,11 +15,11 @@ With the current pandemic situation, most gyms are closed and people are looking
 
 ### Methodology
 
-# Implementation: In this phase, implementation of some of the existing state of the art approaches will be carried out like OpenPose or Convolutional Neural Networks or mediapipe etc. Some of these approaches aim to work on the exercise input and generate keypoints that go right into our model for future purposes. Some also generate time series frames free from any impurity or noise. 
+Implementation: In this phase, implementation of some of the existing state of the art approaches will be carried out like OpenPose or Convolutional Neural Networks or mediapipe etc. Some of these approaches aim to work on the exercise input and generate keypoints that go right into our model for future purposes. Some also generate time series frames free from any impurity or noise. 
 
-# Modelling: Now comes the step where the processed keypoints are trained to the model that performs the actual task of classification and correction. Design and development of a suitable platform: After the implementation of some of the existing approaches, a GUI based platform will be designed to operate our business logic. 
+Modelling: Now comes the step where the processed keypoints are trained to the model that performs the actual task of classification and correction. Design and development of a suitable platform: After the implementation of some of the existing approaches, a GUI based platform will be designed to operate our business logic. 
 
-# Experimental analysis: The experimental analysis will be carried out by testing the developed model in terms of performance evaluation parameters. The analysis and literature survey is a continuous process till the design and implementation phase ; if there is any update related to these approaches, it can be added on.
+Experimental analysis: The experimental analysis will be carried out by testing the developed model in terms of performance evaluation parameters. The analysis and literature survey is a continuous process till the design and implementation phase ; if there is any update related to these approaches, it can be added on.
 
 ### Data Collection
 In this phase we aim to collect ,prepare and preprocess our dataset which is suitable enough for training the model . From previous analysis made we shall understand the techniques dedicated to give rise to a very appropriate dataset.In our case we may be performing data augmentation – techniques to increase the amount of data by adding slightly modified copies of already existing data.
