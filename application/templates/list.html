@@ -1,0 +1,20 @@
+{% extends "layout.html" %}
+
+{% block content %}
+    <article class="media content-section">
+        <img class="rounded-circle article-img-exercise" src=" {{ url_for('static',filename='exercise_pics/' + list.title + '.jpg') }}">
+        <div class="media-body">
+            <div class="article-metadata">
+                <h2 class="article-title">{{ list.title }}</h2>
+                <div>
+                    {% if current_user.username == 'Admin' and current_user.email == 'admin@admin.com' %}
+                        <a class="btn btn-secondary btn-sm mt-1 mb-1" href="{{url_for('update_list',list_id=list.id)}}">Update</a>
+                        <a class="btn btn-secondary btn-sm mt-1 mb-1" href="{{url_for('delete_list',list_id=list.id)}}">Delete</a>
+                    {% endif %}
+                    <a class="btn btn-secondary btn-sm mt-1 mb-1" href="{{url_for('vidtrain',list_id=list.id)}}">Practise</a>
+                </div>  
+            </div>
+            <p class="article-content">{{ list.content }}</p>
+        </div>
+    </article>
+{% endblock content %}

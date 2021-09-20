@@ -1,0 +1,16 @@
+{% extends "layout.html" %}
+
+{% block content %}
+{% for list in lists %}
+    <article class="media content-section">
+        <img class="rounded-circle article-img-exercise" src=" {{ url_for('static',filename='exercise_pics/' + list.title + '.jpg') }}">
+        <div class="media-body">
+            <div class="article-metadata">
+                <h2><a class="article-title" href="{{ url_for('list',list_id=list.id) }}">{{ list.title }}</a></h2>  
+            </div>
+            <p class="article-content">{{ list.content }}</p>
+        </div>
+    </article>
+    
+{% endfor %}
+{% endblock content %}
